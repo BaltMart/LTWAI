@@ -119,8 +119,6 @@ m2 <- lm(Pct_change_GDP ~ LTWAI_m2 + LTWAI_m1, data = df_q_2)
 m3 <- lm(Pct_change_GDP ~ LTWAI_m3 + LTWAI_m2 + LTWAI_m1, data = df_q_2)
 m4 <- lm(Pct_change_GDP ~ LTWAI_m1, data = df_q_2)
 
-anova(m3)
-
 models_q <- list(m1, m4, m2, m3)
 se_list_q <- lapply(models_q, function(m) sqrt(diag(NeweyWest(m))))
 
