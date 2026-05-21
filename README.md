@@ -5,7 +5,7 @@ The repository features all of the code I did for the thesis project. I do not i
 
 All used data is available publicly to download. For Lithuanian data, data is available on data.gov.lt, electricity data from ENTSO-E, NO2 emmision data is from European Environment Agency, Flights are from flightradar and others are self explanatory.
 
-To follow along the code one should start with DATA PREPARATION folder, after which follows Seasonal Adjustments. Having adjusted the data, is is prepared in codes that are featured in Final Preparation folder, where data is mostly converted into 13-week (3-month) rolling growth rates over preceding 13-weeks (3-months) and collected into a single data set.
+To follow along the code one should start with DATA PREPARATION folder, after which follows Seasonal Adjustments. Having adjusted the data, it is prepared in codes that are featured in Final Preparation folder, where data is mostly converted into 13-week (3-month) rolling growth rates over preceding 13-weeks (3-months) and collected into a single data set.
 
 EM_PCA folder features codes estimating the index along codes testing different starting points of the index and different index specifications.
 
