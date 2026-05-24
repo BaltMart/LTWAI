@@ -1,6 +1,8 @@
 # LTWAI
 Bachelor thesis developing a weekly activity index
 
+To this day quarterly GDP data releases among the most important measures describing the state of the economy. In times of calm, it is not an issue that this data is released every three months and almost a month after each quarter ends. However, 2020 Covid crisis laid bare that if the economy suffers sudden dramatic changes, GDP data is inadequate to respond those changes. For that alternative measures must be considered. Therefore, in the aftermath of the crisis economists at central banks developed weekly and even daily indices which would help track the state of the economy. These indices captured the sudden changes in the economy both in the initial crisis moments and in the moment of the recovery well. The motivation for this project was to understand if such indices could be built for Lithuania as neither I or my academic supervisor who suggested the topic were aware of an existing weekly activity index for Lithuania.
+
 The repository features all of the code I did for the thesis project. I do not include data or most of the figures as they are stored in different directories and are largely trivial. Although, I will include the data sets used to estimate the index.
 
 All used data is available publicly to download. For Lithuanian data, data is available on data.gov.lt, electricity data from ENTSO-E, NO2 emmision data is from European Environment Agency, Flights are from flightradar and others are self explanatory.
